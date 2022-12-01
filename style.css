@@ -1,0 +1,21 @@
+h1 { 
+	position: relative; 
+	float: left;
+
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    animation: escribir 2s steps(30);
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
