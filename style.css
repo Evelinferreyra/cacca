@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sens-serif;
-    color:bisque
+    color:rgb(181,150,211)
 
 }
 
@@ -11,7 +11,7 @@ body{
 #main-header {
               background-color: rgb(181, 150, 211);
               color:rgb(181,150,211)
-              height: 80px
+              
 }
 
 h1 { 
